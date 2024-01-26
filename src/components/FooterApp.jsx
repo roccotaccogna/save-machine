@@ -17,7 +17,7 @@ export default function FooterApp(){
                         <h3 className="text-md italic">Sun: Closed</h3>
                     </div>
                     <div>
-                        <h1 className="text-xl">Save Machine</h1>
+                        <h1 className="text-xl no-underline">Save Machine</h1>
                         <a href="mailto:savemachinetech@gmail.com" className="text-md italic">
                             savemachinetech@gmail.com
                         </a>

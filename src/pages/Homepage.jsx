@@ -12,8 +12,11 @@ export default function Homepage(){
         <>
         {/* HEADER */}
         <div className="p-24 text-center wallpaper">
-        <header className="py-5 m-5 xl:mt-24">
-            <h1 className="text-4xl uppercase font-bold text-home"> Welcome to Save Machine </h1>
+        <header className="py-5 m-5 xl:mt-24
+                           lg:mt-20 md:mt-20 sm:mt-16
+                           mt-16"
+        >
+            <h1 className="text-4xl uppercase font-bold text-home"> Welcome to Save Machine </h1>   
         </header>
         </div>
 

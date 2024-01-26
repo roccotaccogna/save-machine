@@ -2,7 +2,7 @@ import Img from "../images/img1.jpg";
 
 export default function About(){
     return (
-        <div className="text-center text-dark mt-28">
+        <div className="text-center text-dark mt-32">
         <h1 className="text-4xl">About Save Machine</h1>
         <h3 className="text-xl mt-3">Our Story</h3>
             <div className="container"> 

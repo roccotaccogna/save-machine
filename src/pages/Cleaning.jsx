@@ -3,7 +3,7 @@ import Img3 from "../images/img3.jpg";
 export default function Cleaning(){
     return (
         <div className="text-center 
-                        mt-28 mb-32
+                        mt-32 mb-32
                         lg:mb-64
                         md:mb-60
                         xl:mb-64"

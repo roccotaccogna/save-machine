@@ -90,7 +90,7 @@ export default function Contact(){
             </Modal>
         ) : ('')}
 
-        <div className="text-center text-dark mt-28">
+        <div className="text-center text-dark mt-32">
             <div className="grid grid-cols-1 xl:grid-cols-2
                             lg:grid-cols-2">
             {/* CONTACT US */}

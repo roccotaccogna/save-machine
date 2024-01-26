@@ -32,38 +32,47 @@ export default function NavbarApp(){
                     </a>
             </div>
         </div>
-        <Navbar.Toggle className="text-black 
+        {/* <Navbar.Toggle className="text-black 
                                     hover:bg-transparent
                                     mb-3"
-        />
-            <Navbar.Collapse className="mb-3">
+        /> */}
+            {/* <Navbar.Collapse className="mb-3"> */}
 
-                <Navbar.Link  className="cursor-pointer 
+                {/* <Navbar.Link  
+                > */}
+                <div className="flex gap-8 
+                                mt-2 xl:mt-0
+                                lg:mt-0 md:mt-0
+                                sm:mt-0 sm:ml-1
+                                "
+                >
+                    <Link to="/" onClick={handleClick} 
+                                 className="cursor-pointer 
                                         text-lg 
                                         hover:bg-transparent
                                         text-light 
-                                        hover:text-alternative"
-                >
-                    <Link to="/" onClick={handleClick}> Home </Link> 
-                </Navbar.Link>
+                                        hover:text-alternative"> Home </Link> 
+                {/* </Navbar.Link> */}
                 
-                <Navbar.Link className="cursor-pointer 
-                                        text-lg 
-                                        hover:bg-transparent
-                                        text-light 
-                                        hover:text-alternative" 
-                >
-                                <Link to="/about" onClick={handleClick}> About </Link>
-                </Navbar.Link>
+                {/* <Navbar.Link  
+                > */}
+                                <Link to="/about" onClick={handleClick}
+                                                  className="cursor-pointer 
+                                                  text-lg 
+                                                  hover:bg-transparent
+                                                  text-light 
+                                                  hover:text-alternative"> About </Link>
+                {/* </Navbar.Link> */}
 
-                <Navbar.Link className="cursor-pointer 
-                                        text-lg 
-                                        hover:bg-transparent
-                                        text-light 
-                                        hover:text-alternative" 
-                >
-                                <Link to="/contact" onClick={handleClick}> Contact </Link>
-                </Navbar.Link>
+                {/* <Navbar.Link  
+                > */}
+                                <Link to="/contact" onClick={handleClick}
+                                                    className="cursor-pointer 
+                                                    text-lg 
+                                                    hover:bg-transparent
+                                                    text-light 
+                                                    hover:text-alternative"> Contact </Link>
+                {/* </Navbar.Link> */}
 
             <div className="nav-dropdown">
                 <Dropdown label="Repair" inline>
@@ -75,8 +84,9 @@ export default function NavbarApp(){
                     </Dropdown.Item>
                 </Dropdown>
             </div>
+                </div>
             
-            </Navbar.Collapse>
+            {/* </Navbar.Collapse> */}
         </Navbar>
     )
 }
