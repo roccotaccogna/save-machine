@@ -30,6 +30,10 @@ const schemaValidation = Yup.object({
              .required('Required!')
 })
 
+const handleClick = () => {
+    window.scrollTo(0, 0);
+}
+
 
 export default function Contact(){
 
@@ -77,7 +81,7 @@ export default function Contact(){
                     </div>
                     <div className="flex justify-center gap-4">
                         <Link to="/">
-                            <Button className="uppercase backHome">
+                            <Button className="uppercase backHome" onClick={handleClick}>
                                 Back Home
                             </Button>
                         </Link>
@@ -107,7 +111,7 @@ export default function Contact(){
                     </div>
 
                     <h1 className="text-4xl mt-10">Follow Us</h1>
-                        <div className="flex mt-3">
+                        <div className="flex mt-3 ml-[90px]">
                             <a href="https://www.instagram.com/savemachinetech/" 
                                target="blank"
                                className="mr-4 ml-4"

@@ -25,12 +25,13 @@ export default function Homepage(){
         <div className="div-business 
                         flex flex-col 
                         lg:flex-row md:flex-row 
-                        pt-8 pb-8 pl-4 h-[650px]"
+                        pt-8 pb-8 pl-4 h-[700px]"
         >
             <img src={Home} alt="image" 
                  className="img-business ml-6 mt-8 
                             xl:w-[600px] xl:ml-12
-                            lg:w-[600px] md:w-[400px] sm:w-[300px] 
+                            lg:w-[600px] md:w-[400px] sm:w-[300px]
+                            w-[300px] 
                             rounded-sm"/>
             <div className="ml-4 mt-8 mr-4">
             <h1 className="text-center text-4xl font-semibold mt-6 mb-8">Our Business</h1>

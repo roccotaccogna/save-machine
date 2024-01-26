@@ -19,8 +19,9 @@ export default function About(){
             </div>
             <div className="mt-12 flex justify-center items-center">
                 <img src={Img} alt="image alternative" 
-                     className="min-w-[500px] max-w-[800px]
-                                min-h-[500px] max-h-[800px]
+                     className="min-h-[500px] max-h-[800px]
+                                w-[350px] xl:w-[800px]
+                                lg:[700px] md:w-[500px] sm:w-[450px]
                                 rounded-md"
                 />
             </div>

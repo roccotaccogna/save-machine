@@ -5,8 +5,12 @@ export default function FooterApp(){
         <>
         <Footer container className="bg-dark text-light mt-12 rounded-none">
             <div className="w-full text-center">
-                <div className="w-full flex justify-between sm:flex sm:items-center sm:justify-between">
-                    <div>
+                <div className="w-full xl:flex lg:flex 
+                                md:flex sm:flex 
+                                justify-between 
+                                sm:items-center"
+                >
+                    <div className="mb-8 mt-4">
                         <h1 className="text-xl">Opening Hours</h1>
                         <h2 className="text-md italic">Mon - Fri: 9am - 6pm</h2>
                         <h2 className="text-md italic">Sat: 10am - 2pm</h2>

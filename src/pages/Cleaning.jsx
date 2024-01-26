@@ -2,13 +2,18 @@ import Img3 from "../images/img3.jpg";
 
 export default function Cleaning(){
     return (
-        <div className="text-center mt-28">
+        <div className="text-center 
+                        mt-28 mb-32
+                        lg:mb-64
+                        md:mb-60
+                        xl:mb-64"
+        >
         <h1 className="text-4xl text-dark uppercase">Cleaning quote</h1>
 
         <div className="div-business 
                     flex flex-col 
                     lg:flex-row md:flex-row 
-                    pt-8 pb-8 pl-4 h-[650px] mt-10"
+                    pt-8 pb-8 pl-4 h-[700px] mt-10"
         >
 
         <div className="ml-4 mt-8">
@@ -31,6 +36,7 @@ export default function Cleaning(){
              className="img-business ml-6 mt-8 
                         xl:w-[600px] xl:ml-12
                         lg:w-[600px] md:w-[400px] sm:w-[300px] 
+                        w-[350px]
                         rounded-sm  mr-4"/>
     </div>
     </div>
