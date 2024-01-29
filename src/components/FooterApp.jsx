@@ -3,7 +3,7 @@ import { Footer } from "flowbite-react";
 export default function FooterApp(){
     return (
         <>
-        <Footer container className="bg-dark text-light mt-12 rounded-none">
+        <Footer container className="bg-alternative_dark text-light mt-12 rounded-none">
             <div className="w-full text-center">
                 <div className="w-full xl:flex lg:flex 
                                 md:flex sm:flex 

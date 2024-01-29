@@ -10,6 +10,7 @@ export default {
       colors: {
         light: '#F1DEC9',
         dark: '#8D7B68',
+        alternative_dark: '#67594b',
         alternative: '#e8ca8e'
       }
     },

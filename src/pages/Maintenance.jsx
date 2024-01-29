@@ -1,12 +1,10 @@
-import Img2 from "../images/img2.jpg";
+import Img2 from "../images/20230814_114633.jpg";
 
 export default function Maintenance(){
     return (
-        <div className="text-center 
-                        mt-32 mb-32
-                        lg:mb-64 
-                        md:mb-60
-                        xl:mb-64"
+        <div className="text-center mb-32 lg:mb-64 
+                        md:mb-60 xl:mb-64 mt-52 
+                        xl:mt-40 lg:mt-40 md:mt-40 sm:mt-40"
         >
             <h1 className="text-4xl text-dark uppercase">Maintenance quote</h1>
 
@@ -16,7 +14,7 @@ export default function Maintenance(){
                         pt-8 pb-8 pl-4 h-[700px] mt-10"
             >
 
-            <div className="ml-4 mt-8">
+            <div className="xl:ml-4 mt-8">
                 <h1 className="text-center text-4xl 
                            font-semibold mt-6 "
                 >

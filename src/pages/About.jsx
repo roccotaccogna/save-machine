@@ -1,11 +1,12 @@
-import Img from "../images/img1.jpg";
+import Img from "../images/E61_Service_kit.jpg";
 
 export default function About(){
     return (
-        <div className="text-center text-dark mt-32">
+        <div className="text-center text-dark mt-52 
+                        xl:mt-40 lg:mt-40 md:mt-40 sm:mt-40">
         <h1 className="text-4xl">About Save Machine</h1>
         <h3 className="text-xl mt-3">Our Story</h3>
-            <div className="container"> 
+            <div className=""> 
             <p className="italic mt-4"> I am Saverio and have doing coffee machine repairs for 9 years
                 and start to run my own business now. <br/>
                 My goal is to provide you with top-notch service and support. 
@@ -19,7 +20,7 @@ export default function About(){
             </div>
             <div className="mt-12 flex justify-center items-center">
                 <img src={Img} alt="image alternative" 
-                     className="min-h-[500px] max-h-[800px]
+                     className="min-h-[250px] max-h-[800px]
                                 w-[350px] xl:w-[800px]
                                 lg:[700px] md:w-[500px] sm:w-[450px]
                                 rounded-md"
